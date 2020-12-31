@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-USER root
+USER 1000
 
 RUN apt-get update && apt-get install -y python python-pip
 
