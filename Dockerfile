@@ -2,7 +2,7 @@ FROM ubuntu:latest
 
 USER root
 
-RUN sudo apt-get update && apt-get install -y python python-pip
+RUN /bin/sudo apt-get update && apt-get install -y python python-pip
 
 RUN pip install flask 
 
